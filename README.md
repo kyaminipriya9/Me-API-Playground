@@ -40,17 +40,6 @@ Me-API-Playground/
 │   └── script.js
 └── README.md
 
-## Installation (Local Setup)
-
-### Backend
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
-
-### Frontend
-Just open `index.html` in your browser or serve with VS Code Live Server.
-
 ## API End Points
 | Method | Endpoint             | Description                  |
 |--------|--------------------|-----------------------------|
@@ -63,3 +52,14 @@ Just open `index.html` in your browser or serve with VS Code Live Server.
 
 ## Resume
 [View my Resume](https://drive.google.com/file/d/1ck68SURCYa5afogzf_8dK5k6nlMhUZv3/view?usp=sharing)
+
+
+## Installation (Local Setup)
+### Frontend
+Just open `index.html` in your browser or serve with VS Code Live Server.
+
+### Backend 
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
