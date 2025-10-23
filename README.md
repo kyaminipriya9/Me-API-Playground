@@ -47,7 +47,7 @@ cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-Frontend
+### Frontend
 Just open index.html in your browser or serve with VS Code Live Server.
 
 
