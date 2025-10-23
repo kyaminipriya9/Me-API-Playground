@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://me-api-playground-as54.onrender.com";
 
 // ---------------- Profile ----------------
 fetch(`${API_BASE}/profile`)
