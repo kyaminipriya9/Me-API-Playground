@@ -30,13 +30,14 @@ A simple full-stack project to showcase personal profile, skills, projects, link
 ## Project Structure
 Me-API-Playground/
 ├── backend/
-│ ├── main.py
-│ ├── models.py
-│ ├── database.py
-│ └── requirements.txt
-│── index.html
-│── style.css
-│── script.js
+│   ├── main.py
+│   ├── models.py
+│   ├── database.py
+│   └── requirements.txt
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 └── README.md
 
 ## Installation (Local Setup)
@@ -48,6 +49,17 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 
 ### Frontend
-Just open index.html in your browser or serve with VS Code Live Server.
+Just open `index.html` in your browser or serve with VS Code Live Server.
 
+## API End Points
+| Method | Endpoint             | Description                  |
+|--------|--------------------|-----------------------------|
+| GET    | `/profile`          | Get profile                 |
+| GET    | `/skills`           | Get all skills              |
+| GET    | `/projects`         | Get all projects            |
+| GET    | `/links`            | Get all links               |
+| GET    | `/work`             | Get work history            |
+| GET    | `/search?q=<query>` | Search projects & skills    |
 
+## Resume
+[View my Resume](https://drive.google.com/file/d/1ck68SURCYa5afogzf_8dK5k6nlMhUZv3/view?usp=sharing)
